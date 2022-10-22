@@ -83,7 +83,7 @@
 }
 
 .iconsNav2 {
-    width: 15px;
+    width: 55px;
 }
 
 .navDiv2 {
@@ -93,8 +93,9 @@
 }
 
 .buttonNav2 {
+    margin-top: 20px;
     width: 200px;
-    height: 70px;
+    height: 90px;
     cursor: pointer;
     background-color: transparent;
     border: 0px solid;
