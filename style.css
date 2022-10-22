@@ -146,7 +146,7 @@ button {
     color: white;
     right: 7%;
     top: 25%;
-    width: 22%;
+    width: 30%;
 }
 
 #g15H2 {
@@ -164,4 +164,32 @@ button {
 
 #faleH2 {
     font-size: 13px;
+}
+
+.g15Button1 {
+    background-color: #0063B8;
+    color: white;
+    border: 0px;
+    width: 180px;
+    height: 40px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.g15Button1:hover {
+    background-color: #0059a7;
+}
+
+.g15Button2 {
+    background-color: white;
+    color: #0063B8;
+    font-size: 20px;
+    border: 1.5px solid #0063B8;
+    width: 180px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.g15Button2:hover {
+    background-color: #D9F5FD;
 }
