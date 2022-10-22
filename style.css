@@ -5,6 +5,10 @@
     font-size: 15px;
 }
 
+button {
+    cursor: pointer;
+}
+
 .nav1 {
     margin: 20px;
     width: 100%;
@@ -64,7 +68,6 @@
     height: 50px;
     background-color: transparent;
     border: 0px solid;
-    cursor: pointer;
 }
 
 .buttonNav1:hover,
@@ -79,11 +82,7 @@
 .nav2 {
     display: flex;
     align-items: center;
-    justify-content: center; 
-}
-
-.nav2Fixed{
-    position: sticky;
+    justify-content: center;
 }
 
 .iconsNav2 {
@@ -101,7 +100,6 @@
     margin-bottom: 15px;
     width: 200px;
     height: 90px;
-    cursor: pointer;
     background-color: transparent;
     border: 0px solid;
 }
@@ -111,4 +109,59 @@
     color: #2B87D2;
     font-weight: bolder;
     transform: scale(1.1);
+}
+
+.wallpaper {
+    width: 100%;
+    filter: brightness(40%);
+}
+
+.positionFale {
+    position: fixed;
+    bottom: 10px;
+    left: 30px;
+}
+
+.buttonFale {
+    width: 120px;
+    height: 50px;
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #0063B8;
+    border: 0px;
+    border-radius: 2.5em;
+}
+
+.buttonFale:hover {
+    transform: scale(1.1);
+}
+
+.layoutPrincipal {
+    position: relative;
+}
+
+.textLayout {
+    position: absolute;
+    text-align: center;
+    font-size: 80px;
+    color: white;
+    right: 7%;
+    top: 25%;
+    width: 22%;
+}
+
+#g15H2 {
+    font-size: 22px;
+}
+
+#g15P {
+    font-size: 19px;
+    font-weight: 300;
+}
+
+#g15H1 {
+    font-size: 34px;
+}
+
+#faleH2 {
+    font-size: 13px;
 }
