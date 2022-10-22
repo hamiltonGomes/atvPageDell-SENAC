@@ -82,6 +82,10 @@
     justify-content: center; 
 }
 
+.nav2Fixed{
+    position: sticky;
+}
+
 .iconsNav2 {
     width: 55px;
 }
@@ -93,7 +97,8 @@
 }
 
 .buttonNav2 {
-    margin-top: 20px;
+    margin-top: 5px;
+    margin-bottom: 15px;
     width: 200px;
     height: 90px;
     cursor: pointer;
@@ -102,6 +107,8 @@
 }
 
 .buttonNav2:hover {
-    background-color: #d2d2d291;
-    transition-delay: 100ms;
+    background-color: #f5f6f7;
+    color: #2B87D2;
+    font-weight: bolder;
+    transform: scale(1.1);
 }
