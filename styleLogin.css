@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+* {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+}
+
+.leftSide {
+    width: 50%;
+}
+
+.rightSide {
+    width: 50%;
+    background-color: #F5F6F7;
+}
+
+.logoDell {
+    width: 30%;
+}
+
+.iconGoogle {
+    width: 14px;
+}
+
+.button1 {
+    background-color: white;
+    /* Fórmula pra deixar a border do button bem discreta */
+    border: 1px solid #f5f6f7;
+    border-color: #ddd;
+    border-width: 1px;
+    width: 480px;
+    height: 45px;
+    font-size: 15px;
+    color:#636363;
+}
+
+.inputRight {
+    width: 470px;
+    height: 45px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+    padding-left: 15px;
+}
+
+.linksRight {
+    color: #1863B8;
+    text-decoration: none;
+}
+
+.linksRight:hover {
+    text-decoration: underline;
+}
+
+.button2 {
+    margin-top: 25px;
+    background-color: #0672cb;
+    color: white;
+    border: 0px;
+    width: 470px;
+    height: 45px;
+}
+
+.button2:hover {
+    background-color: #0059a7;
+}
+
+.or {
+    color:#636363;
+    margin: 20px;
+}
+
+.lastDescriptionRight {
+    margin-top: 15px;
+}
+
+.button3 {
+    margin-bottom: 25px;
+    background-color: white;
+    color: #0063B8;
+    border: 1.5px solid #0063B8;
+    width: 470px;
+    height: 45px;
+}
+
+.button3:hover {
+    background-color: #D9F5FD;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1 {
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+}

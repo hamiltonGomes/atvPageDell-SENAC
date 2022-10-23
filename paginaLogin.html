@@ -9,24 +9,32 @@
     <link rel="shortcut icon" href="imagens/dellLogo-removebg-preview (2).png" type="image/x-icon">
     <title>Fazer login | Dell</title>
 </head>
+
 <body>
-    <div>
-        <img src="imagens/logoDell-removebg-preview.png" alt="logoDell">
-        <h1>Login</h1>
-        <button class="button1"><img src="imagens/google.png" alt="">Login no Google</button>
-        <input type="email" placeholder="Endereço de e-mail">
-        <input type="password" placeholder="Senha" name="password" id="password">
-        <p>Não se lembra da sua senha? <a href="">Crie ou Recupere sua senha</a></p>
-        <button class="button2">Fazer login</button>
-        <p>ou</p>
-        <button class="button3">Enviar chave de acesso único por email</button>
-        <p>Não tem conta da Dell?<a href="">Criar uma conta</a></p>
-    </div>
-    
-    <div>
-        <h1>Benefícios de criar sua conta Dell</h1>
-        <p>A criação de uma conta Dell lhe dá acesso ao histórico de pedidos, gerenciamento de dados cadastrais e preferências de comunicação.</p>
-        <img src="imagens/wallpaperLogin.png" alt="">
+    <div class="container">
+        <div class="leftSide">
+            <img src="imagens/logoDell-removebg-preview.png" alt="logoDell" class="logoDell">
+                <form action="#" method="get">
+                    <h1>Login</h1>
+                    <button class="button1"><img src="imagens/google.png" class="iconGoogle"> Login no Google</button>
+                    <input class="inputRight" type="email" placeholder="Endereço de e-mail">
+                    <input class="inputRight" type="password" placeholder="Senha" name="password" id="password">
+                    <p>Não se lembra da sua senha? <a class="linksRight" href="#">Crie ou Recupere sua senha</a></p>
+                    <button class="button2">Fazer login</button>
+                    <p class="or">ou</p>
+                    <button class="button3">Enviar chave de acesso único por email</button>
+                    <p class="lastDescriptionRight">Não tem conta da Dell? <a class="linksRight" href="#">Criar uma conta</a></p>
+                </form>
+        </div>
+
+        <div class="rightSide">
+            <h1>Benefícios de criar sua conta Dell</h1>
+
+            <p>A criação de uma conta Dell lhe dá acesso ao histórico de pedidos, gerenciamento de dados cadastrais e
+                preferências de comunicação.</p>
+            <img src="imagens/wallpaperLogin.png" alt="">
+        </div>
     </div>
 </body>
+
 </html>
