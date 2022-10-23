@@ -129,12 +129,17 @@ h1 {
 
 
 @media screen and (max-width: 1100px) {
-    .inputRight, .button2, .button3 {
+
+    .inputRight,
+    .button2,
+    .button3 {
         width: 40%;
     }
+
     .button1 {
         width: 45%;
     }
+
     .wallpaperRight {
         width: 50%;
     }
