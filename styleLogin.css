@@ -25,7 +25,8 @@ button {
 }
 
 .logoDell {
-    width: 30%;
+    width: 31%;
+    margin: 13px;
 }
 
 .iconGoogle {
@@ -38,14 +39,14 @@ button {
     border: 1px solid #f5f6f7;
     border-color: #ddd;
     border-width: 1px;
-    width: 480px;
+    width: 470px;
     height: 45px;
     font-size: 15px;
-    color:#636363;
+    color: #636363;
 }
 
 .inputRight {
-    width: 470px;
+    width: 450px;
     height: 45px;
     margin-top: 25px;
     margin-bottom: 10px;
@@ -75,7 +76,7 @@ button {
 }
 
 .or {
-    color:#636363;
+    color: #636363;
     margin: 20px;
 }
 
@@ -106,4 +107,22 @@ h1 {
     font-size: 40px;
     font-weight: 300;
     text-align: center;
+}
+
+.rightSide {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.títuloLeft {
+    margin-top: 100px;
+    margin-bottom: 0;
+}
+
+.descriptionLeft {
+    color: #636363;
+    text-align: center;
+    margin: 15px;
 }
